@@ -1,5 +1,5 @@
 # PetLife
-Projeto de site de um Pet shop, desenvolvida durante a trilha, Start na programação da  OneBitCode.
+Esse é um projeto de site de uma clínica veterinária, e foi desenvolvida durante a trilha, Start na programação da  OneBitCode.
 
 ## Tecnologia Utilizadas
 
