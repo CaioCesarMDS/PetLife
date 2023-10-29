@@ -1,0 +1,65 @@
+@media screen and (max-width: 1264px) {
+    img {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    #inicio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .absolute {
+        top: 420px;
+    }
+
+    .botao-inicial {
+        display: flex;
+        justify-content: space-around;
+        padding: 24px 0;
+    }
+
+    .duvidas-img-principal {
+        max-width: 400px;
+    }
+
+    .duvida img {
+        max-width: 20px;
+    }
+
+    .img-principal-footer img {
+        max-width: 140px;
+        padding-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    img {
+        width: 100%;
+    }
+
+    #clinica {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #farmacia #texto {
+        text-align: center;
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}

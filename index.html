@@ -9,20 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
 
+
+    <link rel="icon" href="./src/images/logo.svg" type="image/x-icon">
     <title>PetLife</title>
 
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
 </head>
 
 <body>
 
     <header>
-        <a href="index.html">
+        <a href="index.html" class="logo-header">
             <img src="./src/images/logo-white.svg" alt="logo-pet-life">
         </a>
-        <nav>
+        <nav class="nav-header">
             <a href="#inicio" id="texto">Inicio</a>
             <a href="#clinica" id="texto">Clínica</a>
             <a href="#farmacia" id="texto">Farmácia</a>
@@ -33,7 +36,7 @@
     <main>
 
         <section id="inicio">
-            <img src="./src/images/start-img.svg" alt="img-principal" width="580" height="580">
+            <img class="img-principal" src="./src/images/start-img.svg" alt="img-principal" width="580" height="580">
             <div>
                 <h1 id="titulo">Garanta uma vida longa e cheia de alegria para seu melhor amigo</h1>
                 <p id="texto">
@@ -41,8 +44,10 @@
                     dedicados e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo
                     o bem-estar, a saúde e a felicidade dos seus animais de estimação.
                 </p>
-                <a class="botao" href="http://wa.me/5581987881191" target="_blank" id="texto">Marque Sua Consulta</a>
-                <a class="botao-transparente" href="#clinica" id="texto">Conheça nossa cínica</a>
+                <div class="botao-inicial">
+                    <a class="botao" href="http://wa.me/5581987881191" target="_blank" id="texto">Marque Sua Consulta</a>
+                    <a class="botao-transparente" href="#clinica" id="texto">Conheça nossa cínica</a>
+                </div>
             </div>
 
             <img class="absolute" src="./src/images/shape.svg" alt="">
@@ -86,7 +91,7 @@
         </section>
 
         <section id="duvidas">
-            <img src="./src/images/faq-img.svg" alt="duvidas" width="540" height="540" loading="lazy">
+            <img src="./src/images/faq-img.svg" alt="duvidas" width="540" height="540" loading="lazy" class="duvidas-img-principal">
             <div>
                 <h2 id="titulo">Ficou alguma dúvida?</h2>
                 <div class="duvida">
@@ -139,7 +144,7 @@
 
     <footer>
 
-        <div>
+        <div class="img-principal-footer">
             <img src="./src/images/logo.svg" alt="logo-pet-life">
             <p id="texto">Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets é mais feliz!</p>
         </div>
