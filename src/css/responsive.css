@@ -1,6 +1,7 @@
 @media screen and (max-width: 1264px) {
     img {
         width: 100%;
+        margin: 0;
     }
 
     header {
@@ -41,6 +42,7 @@
 @media screen and (max-width: 945px) {
     img {
         width: 100%;
+        margin: 0;
     }
 
     #clinica {
@@ -57,9 +59,116 @@
 }
 
 @media screen and (max-width: 680px) {
+    img {
+        width: 100%;
+        margin: 0;
+    }
+
     #farmacia #texto {
         text-align: center;
         font-size: 16px;
-        padding: 0 20px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 670px) {
+    img {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .header {
+        padding: 28px 32px 0 35px;
+    }
+
+    .nav-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 32px;
+        margin: 0;
+    }
+
+    .nav-header #texto {
+        padding: 0;
+    }
+
+    .absolute {
+        top: 360px;
+    }
+
+    section#inicio {
+        padding: 12px 22px 12px 22px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .botao-inicial {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+
+    .botao-transparente {
+        visibility: hidden;
+    }
+
+    section#clinica {
+        padding: 0 22px 0 22px;
+    }
+
+    section#clinica img {
+        margin-bottom: 32px;
+    }
+
+    section#farmacia {
+        padding: 0 22px 0 22px;
+    }
+
+    section#farmacia img {
+        margin: 0;
+    }
+
+    section#duvidas {
+        padding: 0 22px 0 22px;
+    }
+
+    footer {
+        padding: 32px 22px 32px 22px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-principal-footer p#texto {
+        margin: 0;
+    }
+
+    footer div nav a {
+        justify-content: space-around;
+        margin: 10px 0 10px 0;
+    }
+
+    footer div nav #texto {
+        margin: 10px 10px;
+        display: inline-block;
+        justify-content: space-around;
+    }
+
+    footer h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: x-large;
+        padding: 15px 0;
+    }
+
+    footer .contato #texto {
+        margin: 10px 0;
     }
 }
